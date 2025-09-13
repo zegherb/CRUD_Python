@@ -8,6 +8,7 @@ while True:
     print("3. Exit")
     try:
         pilih = int(input("pilih menu: "))
+        os.system('cls')
         match pilih:
             case 1:
                 CRUD.createdate()
